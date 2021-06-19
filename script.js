@@ -15,6 +15,18 @@ function calculateInterest(){
 	document.getElementById('info').innerHTML = si;
 	alert(si);
 }
+let person = {
+	fname: "Shova",
+	lname: "Pandey",
+     age: 21,	
+	 location: "Palpa"
+	 fullname: function(){
+		 return this.fname + " " + this.lname;
+	 }
+};
+document.write(person.fullname);
+
+/*
    let a = 50;
    let b = 10;
    let sum = a + b;
@@ -65,12 +77,12 @@ function calculateInterest(){
    }while(a<=100);*/
    
    //array//
-   
+   /*
    let student1 = "hari sharma";
    let student2 = "shova Pandey";
    
    const days = ['Sunday', 'Monday'];
-   document.write(days[0]);
+   document.write(days[]);
    
-   
+   */
    
